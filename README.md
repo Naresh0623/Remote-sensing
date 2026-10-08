@@ -1,48 +1,70 @@
-Chennai Urban Growth & Smart Planning System
-Remote Sensing and GIS-Based Analysis of Urban Growth and Land-Use Change Using Multispectral Satellite Imagery
+# Getting Started with Create React App
 
-An interactive GIS-based urban planning and decision-support system for Chennai, designed to analyze urban growth, visualize ward-level development patterns, evaluate planning scenarios, and provide data-driven recommendations for future infrastructure development.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The system combines Remote Sensing, GIS, React, Node.js, Express, MongoDB, and spatial visualization to provide an interactive platform for understanding urban growth and supporting sustainable planning decisions.
+## Available Scripts
 
-Project Overview
+In the project directory, you can run:
 
-Rapid urbanization creates challenges such as increasing built-up areas, population pressure, vegetation loss, water-related risks, and infrastructure demand.
+### `npm start`
 
-This project analyzes urban growth across Chennai wards using indicators derived from multispectral satellite imagery and combines them with ward-level population and environmental data.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The application allows users to:
-Visualize Chennai wards on an interactive map
-Analyze urban growth over multiple years
-Examine built-up/urban density
-Analyze vegetation using NDVI
-Analyze water conditions using NDWI
-Examine population distribution
-View projected 2026 growth
-Evaluate locations for hospitals and other infrastructure
-Evaluate housing suitability
-Evaluate school locations
-Evaluate park development
-Evaluate drainage requirements
-Evaluate public-toilet requirements
-Interact with an AI-style planning assistant
-Compare different wards
-Apply different planning policies
-Simulate potential project impacts
-Generate ward-level reports
-Provide feedback on recommendations
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Objectives
+### `npm test`
 
-The main objectives of this project are:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Analyze the spatial pattern of urban growth in Chennai.
-Identify changes in built-up areas over time.
-Analyze vegetation and water-related indicators.
-Study population distribution and service pressure.
-Provide ward-level visualization using GIS.
-Predict short-term urban growth trends.
-Develop a scenario-based planning recommendation system.
-Support infrastructure planning using multiple environmental and demographic indicators.
-Provide an interactive planning assistant for users.
-Encourage data-driven and sustainable urban development.
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
